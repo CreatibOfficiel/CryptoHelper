@@ -1,0 +1,41 @@
+# Front
+
+# dependencies
+crypto-helper-front/node_modules
+crypto-helper-front/.pnp
+crypto-helper-front/.pnp.js
+
+# testing
+crypto-helper-front/coverage
+
+# production
+crypto-helper-front/build
+
+# misc
+crypto-helper-front/.DS_Store
+crypto-helper-front/.env.local
+crypto-helper-front/.env.development.local
+crypto-helper-front/.env.test.local
+crypto-helper-front/.env.production.local
+
+crypto-helper-front/npm-debug.log*
+crypto-helper-front/yarn-debug.log*
+crypto-helper-front/yarn-error.log*
+
+crypto-helper-front/.gitignore
+crypto-helper-front/README.md
+
+# Back
+
+crypto-helper-api/.idea
+crypto-helper-api/.gitignore
+
+###> symfony/framework-bundle ###
+crypto-helper-api/.env.local
+crypto-helper-api/.env.local.php
+crypto-helper-api/.env.*.local
+crypto-helper-api/config/secrets/prod/prod.decrypt.private.php
+crypto-helper-api/public/bundles/
+crypto-helper-api/var/
+crypto-helper-api/vendor/
+###< symfony/framework-bundle ###
